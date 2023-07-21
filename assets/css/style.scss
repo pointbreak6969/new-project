@@ -1,0 +1,72 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+
+.navbar{
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+   ul{
+    // flex: 1 1 300px;
+     li{
+        padding: 1rem;
+        list-style:none;
+        display: inline-block;
+        a{
+            text-decoration: none;
+            color:#fff;
+        }
+        img{
+            width:45px ;
+        }
+    }
+    .icon{
+        display: none;
+        color: #fff !important;
+    }
+   }
+     
+}
+
+.container{
+    max-width:960px;
+    margin: 2rem auto;
+    border-radius: 15px;
+    box-shadow: 1px 2px 3px 4px #000;
+
+    form{
+        padding: 1.5rem;
+        p{
+            color: #a20909;
+        }
+
+        input{
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 0.5rem 0;
+        }
+
+        label{
+            display: block;
+            padding: 0.5rem;
+        }
+        input[type="submit"]{
+            padding: 0.5rem 1.5rem;
+            background-color: green;
+            color: #fff;
+            width: 100px;
+            border: none;
+            border-radius: 10px;
+        }
+
+    }
+}
+
